@@ -21,6 +21,7 @@ public class RTSCameraScript : MonoBehaviour {
         }
         else if (Input.mousePosition.y >= Screen.height * (1 - scrollMargin)) {
             transform.Translate(Vector3.forward * Time.deltaTime * scrollSpeed, Space.World);
+
         }
     }
 }
